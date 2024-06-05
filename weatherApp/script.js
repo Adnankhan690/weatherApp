@@ -17,7 +17,7 @@ let timingElem = document.querySelector(".time_location>span")
 let imgElem = document.querySelector(".weather_condition img");
 let conditionElem = document.querySelector(".weather_condition span");
 
-let apiKey = "73fb86b5c79b4a51a8f142823230209";
+let apiKey = "";
 
 async function fetchNUpdateUI(cityName) {
     try {
